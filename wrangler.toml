@@ -1,0 +1,12 @@
+name = "cf-oidc-proxy"
+main = "src/index.ts"
+compatibility_date = "2024-12-17"
+
+[vars.PROXY_PASS]
+"httpbin.example.com" = "https://httpbin.org/"
+"abehiroshi.example.com" = "http://abehiroshi.la.coocan.jp/"
+"*" = "https://www.google.com/"
+
+# [observability]
+# enabled = true
+# head_sampling_rate = 1
